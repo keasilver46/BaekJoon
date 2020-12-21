@@ -1,5 +1,3 @@
-package _1000;
-
 import java.util.Scanner;
 
 public class Main {
