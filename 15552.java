@@ -1,5 +1,3 @@
-package _15552;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
