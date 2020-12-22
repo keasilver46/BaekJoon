@@ -1,5 +1,3 @@
-package _9498;
-
 import java.util.Scanner;
 
 public class Main {
