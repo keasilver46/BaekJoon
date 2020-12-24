@@ -1,5 +1,3 @@
-package _1110;
-
 import java.util.Scanner;
 
 public class Main {
