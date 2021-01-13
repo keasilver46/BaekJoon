@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		// TODO Auto-generated method stub
+=======
+
+>>>>>>> ad44db18dfb7970acf71c8c356ae40154ac8246f
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
