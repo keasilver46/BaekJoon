@@ -6,13 +6,17 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		int N = sc.nextInt();
-		int result = 1;
-		
-		for (int i = 1; i <= N; i++) {
-			result *= i;
-		}
+		int result = factorial(N);
 		
 		System.out.println(result);
+	}
+	
+	public static int factorial(int n) {
+		if (n == 0) {
+			return 1;
+		}
+		
+		return n * factorial(n-1);
 	}
 	
 }
