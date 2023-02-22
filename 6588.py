@@ -1,3 +1,5 @@
+import sys
+
 isPrime = [True for i in range(1000001)]
 
 for i in range(2, 1000001):
@@ -6,7 +8,7 @@ for i in range(2, 1000001):
       isPrime[j] = False
 
 while True:
-  n = int(input())
+  n = int(sys.stdin.readline())
 
   if n == 0:
     break
